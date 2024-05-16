@@ -1,29 +1,31 @@
-# 5City Casino Hack Minigame
+Translated from original creator, Deemor
 
-Próba jak najwierniejszego odtworzenia minigry włamania do bocznych pomieszczeń sejfu w kasynie serwera GTA WL-ON 5City.
-Minigra została stworzona na podstawie aktualnie jedynego podejścia do tego hacka. Podejście to zostało wykonane przez Ewroon podczas drugiego napadu na kasyno.
-## - - Kliknij screena poniżej, aby to wypróbować! - - 
+#5City Casino Hack Minigame
+
+An attempt to recreate as faithfully as possible the mini-game of breaking into the side rooms of the safe in the casino of the GTA WL-ON 5City server.
+The minigame was created based on the currently only approach to this hack. This approach was made by Ewroon during the second casino robbery.
+## - - Click the screenshot below to try it out! - -
 
 [![example](https://user-images.githubusercontent.com/90990679/133932960-32db9b91-c72f-4c73-aef3-69b07a6439a0.png)](https://deemor.github.io/minigameVolt/)
 
-# Dlaczego nie stworzyłeś tablicy w której symbolom odpowiadają ich mnożniki?
-Ponieważ się nie da.
-Taki sam symbol (np. "X") może mieć różne mnożniki podczas różnych prób hackowania.
-np. 
-W jednej z prób symbol "X" może mieć przypisany mnożnik 10 - w innej natomiast może mieć mnożnik 50.
+# Why didn't you create an array with symbols corresponding to their multipliers?
+Because it's impossible.
+The same symbol (e.g. "X") may have different multipliers during different hacking attempts.
+e.g.
+In one trial, the "X" symbol may have a multiplier of 10, while in another it may have a multiplier of 50.
 
-# Opis oraz poradnik
-Hacka można rozwiązać prostym logicznym myśleniem. Poniżej przedstawiam jednak algorytm rozwiązywania hacka oraz krótki jego opis.
-![poradnik](https://user-images.githubusercontent.com/90990679/133933206-731f7a9b-d8be-4e49-853e-fd838f43bbf1.png)
+# Description and guide
+A hack can be solved with simple logical thinking. Below, however, I present the algorithm for solving the hack and its brief description.
+![guide](https://user-images.githubusercontent.com/90990679/133933206-731f7a9b-d8be-4e49-853e-fd838f43bbf1.png)
 
-### Warunki nieudanego hacka 
-1. Wyczerpanie baterii - po określonym czasie (20s) stan baterii spada do 0%,
-2. Połączenie wszystkich dostępnych cyfr do nieodpowiednich znaków (wówczas pole result jest różne od pola target).
+### Conditions for a failed hack
+1. Battery depletion - after a certain period of time (20s), the battery status drops to 0%,
+2. Combining all available digits with inappropriate characters (then the result field is different from the target field).
 
-# Wspierane przeglądarki
-Testowane na: Firefox, Chrome.
+# Supported browsers
+Tested on: Firefox, Chrome.
 
 
-# Błąd?
-Jeśli brakuje jakiejś części lub coś nie działa prawidłowo, zgłoś problem tutaj na GitHub - zostanie on zbadany.
-Aby zgłosić błąd wejdź w zakładkę "Issues".
+# Mistake?
+If a part is missing or not working properly, please report the issue here on GitHub and it will be investigated.
+To report an error, go to the "Issues" tab.
